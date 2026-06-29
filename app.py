@@ -35,6 +35,13 @@ def report():
         'python_version': platform.python_version(),
         'uptime_seconds': round(time.time() - START_TIME, 2)
     })
+@app.get('/api/welcome')
+def welcome():
+    return jsonify({
+        'message': 'Welcome to the Flask DevOps Lab! We are glad you are here.',
+        'status': 'success'
+    })
+
 if __name__ == '__main__':
 	app.run(
 		host='0.0.0.0',
