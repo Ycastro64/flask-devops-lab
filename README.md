@@ -1,4 +1,5 @@
-# Flask DevOps Lab conflict A
+
+# Flask DevOps Lab
 ## Usage section.
 
 How to activate
